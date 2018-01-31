@@ -188,10 +188,10 @@ set wildignore+=*/build/*
 let g:NERDTreeIgnore=['\~$', 'node_modules', '^build$']
 set relativenumber
 
-" autocmd VimEnter * NERDTree
-" autocmd VimEnter * wincmd p
+autocmd VimEnter * NERDTree
+autocmd VimEnter * wincmd p
 
-" autocmd BufEnter * if &modifiable | NERDTreeFind | wincmd p | endif
+autocmd BufEnter * if &modifiable | NERDTreeFind | wincmd p | endif
 
 
 let g:airline#extensions#tabline#enabled = 1
